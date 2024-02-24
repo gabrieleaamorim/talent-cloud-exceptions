@@ -1,9 +1,9 @@
 continuar = True
 while continuar == True:
     try:
-        num1 = int(input("Digite um número: "))
-        num2 = int(input("Digite outro número: "))
-        print(num1, "/", num2, "=", num1/num2)
+        nome = input("Digite seu nome completo: ")
+        ano = int(input("Digite um ano de nascimento entre 1922 e 2021: "))
+        print(nome, "nasceu em", ano, "e tem", 2024 - ano, "anos.")
         continuar = False
     except ValueError:
         print("Digite apenas números inteiros.")
